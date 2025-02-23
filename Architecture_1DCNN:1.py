@@ -27,7 +27,12 @@ Emodel.compile(
 )
 
 Emodel.summary()
+#-----------------------------
+Total params: 2,617,942 (9.99 MB)
+Trainable params: 2,617,750 (9.99 MB)
 
+Non-trainable params: 192 (768.00 B)
+#------------------------------
 Epoch 1/10
 320/320 ━━━━━━━━━━━━━━━━━━━━ 4s 12ms/step - accuracy: 0.2842 - loss: 1.9353 - val_accuracy: 0.4676 - val_loss: 1.5695
 Epoch 2/10
